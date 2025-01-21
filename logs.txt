@@ -1,0 +1,4 @@
+data l 74
+    logging.info(f"✅ Pays joués trouvés : {list(pays_joues.keys())}")
+Data L 31
+    logging.info(f"🔎 URL demandée : {new_url}")
