@@ -16,7 +16,7 @@ COULEURS_TIERS = {
 CLE_API = os.getenv('CLE_API', '') 
 
 # Chemin par défaut vers le dossier des drapeaux (modifiable via l'interface)
-CHEMIN_DRAPEAUX = r'G:\tierlisteu4\flags'  # Mettez le bon chemin
+CHEMIN_DRAPEAUX = r'...\tierlisteu4\flags'  # Mettez le bon chemin
 
 # Mode local (True) ou production (False)
 # En local (http://localhost:8501), mettez True.
