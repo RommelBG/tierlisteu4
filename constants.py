@@ -17,8 +17,7 @@ COULEURS_TIERS = {
 CLE_API = os.getenv('CLE_API', '') 
 
 # Chemin par défaut vers le dossier des drapeaux (modifiable via l'interface)
-BASE_DIR = Path(__file__).resolve().parent
-CHEMIN_DRAPEAUX = BASE_DIR / "flags"
+CHEMIN_DRAPEAUX = "/var/www/tierliste4/flags"
 
 # Mode local (True) ou production (False)
 # En local (http://localhost:8501), mettez True.
