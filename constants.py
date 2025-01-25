@@ -1,6 +1,7 @@
 # constants.py
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 TIERS = ['S', 'A', 'B', 'C', 'D']
 
@@ -16,7 +17,8 @@ COULEURS_TIERS = {
 CLE_API = os.getenv('CLE_API', '') 
 
 # Chemin par défaut vers le dossier des drapeaux (modifiable via l'interface)
-CHEMIN_DRAPEAUX = r'...\flags'  # Mettez le bon chemin
+BASE_DIR = Path(__file__).resolve().parent
+CHEMIN_DRAPEAUX = BASE_DIR / "flags"
 
 # Mode local (True) ou production (False)
 # En local (http://localhost:8501), mettez True.
